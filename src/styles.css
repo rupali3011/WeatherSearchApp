@@ -1,0 +1,133 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.title {
+  text-align: center;
+  background-color: gray;
+  height: 8vh;
+  padding-top: 1px;
+  color: white;
+  font-size: 18px;
+}
+.wrap {
+  background-color: grey;
+  height: 100vh;
+  width: 100vw;
+}
+.searchdiv {
+  height: 10vh;
+  background-color: gray;
+}
+.search {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  border: salmon;
+}
+input {
+  width: 19vw;
+}
+input:hover {
+  background-color: khaki;
+}
+button:hover {
+  background-color: coral;
+}
+button {
+  width: 6vw;
+}
+input,
+button {
+  margin-top: 27px;
+  padding: 6px;
+  border-radius: 5px;
+  margin-right: 3px;
+  border: 1px green solid;
+}
+.maindiv {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+.subdiv {
+  background-color: honeydew;
+  height: 35vh;
+  width: 35vw;
+  border-radius: 15px;
+}
+.wether {
+  margin-top: 23px;
+  background-color: sandybrown;
+  color: blueviolet;
+  padding: 10px;
+}
+.wetherInfo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.wetherInfo {
+  background-color: honeydew;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+.date {
+  background-color: mediumturquoise;
+  color: red;
+  border-radius: 6px;
+  padding: 10px;
+  width: 100px;
+}
+.desc {
+  width: 100px;
+  background-color: mediumslateblue;
+  color: white;
+  border-radius: 6px;
+  padding: 10px;
+}
+.temp {
+  background-color: mediumturquoise;
+  color: red;
+  border-radius: 6px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.wether {
+  font-size: 80px;
+  padding: 20px;
+}
+.extra-temp {
+  padding: 5% 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: bisque;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  font-size: 15px;
+  font-weight: 700;
+}
+.temp-info-minmax,
+.weather-extra-info,
+.two-sided-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  align-items: center;
+  color: blue;
+}
+.extra-temp .extra-info-leftside {
+  text-align: left;
+  text-transform: capitalize;
+  color: black;
+}
