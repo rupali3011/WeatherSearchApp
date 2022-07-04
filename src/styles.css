@@ -27,24 +27,22 @@
   border: salmon;
 }
 input {
-  width: 19vw;
-}
-input:hover {
-  background-color: khaki;
+  width: 22vw;
+  height: 2vw;
 }
 button:hover {
-  background-color: coral;
+  background-color: khaki;
 }
 button {
-  width: 6vw;
+  width: 8vw;
 }
 input,
 button {
   margin-top: 27px;
   padding: 6px;
-  border-radius: 5px;
+  border-radius: 7px;
   margin-right: 3px;
-  border: 1px green solid;
+  border: solid;
 }
 .maindiv {
   display: flex;
@@ -61,8 +59,7 @@ button {
 }
 .wether {
   margin-top: 23px;
-  background-color: sandybrown;
-  color: blueviolet;
+  background-color: honeydew;
   padding: 10px;
 }
 .wetherInfo {
@@ -131,3 +128,4 @@ button {
   text-transform: capitalize;
   color: black;
 }
+ 
